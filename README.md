@@ -1,6 +1,6 @@
 # Phaser 3 TypeScript Project Template
 
-This quick-start project template combines Phaser 3.60 with [TypeScript 5](https://www.typescriptlang.org/) and uses [Rollup](https://rollupjs.org) for bundling.
+This quick-start project template combines Phaser 3.60 with [TypeScript 5](https://www.typescriptlang.org/) and uses [Rollup](https://rollupjs.org) for bundling. It adds a gh-pages npm run script that pushes `dist/` directory to Github pages.
 
 ## Requirements
 
@@ -14,6 +14,7 @@ This quick-start project template combines Phaser 3.60 with [TypeScript 5](https
 | `npm run watch` | Build project and open web server running project, watching for changes |
 | `npm run dev` | Builds project and open web server, but do not watch for changes |
 | `npm run build` | Builds code bundle with production settings (minification, no source maps, etc..) |
+| `npm run deploy` | Deploys `dist/` directory to Github pages |
 
 ## Writing Code
 
@@ -34,6 +35,10 @@ by default).
 You will find lots of comments inside the rollup config files to help you do this.
 
 Note that due to the build process involved, it can take around 20 seconds to build the initial bundle. Times will vary based on CPU and local drive speeds. The development config does not minify the code in order to save build time, but it does generate source maps. If you do not require these, disable them in the config to speed it up further.
+
+## Deploying to Github Pages
+
+Run `npm run deploy` to build a production release and then deploy to Github Pages.
 
 ## Versions Used
 
