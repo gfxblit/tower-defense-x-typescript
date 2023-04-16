@@ -2,6 +2,8 @@
 
 This quick-start project template combines Phaser 3.60 with [TypeScript 5](https://www.typescriptlang.org/) and uses [Rollup](https://rollupjs.org) for bundling. It adds a gh-pages npm run script that pushes `dist/` directory to Github pages. This is a fork of https://github.com/photonstorm/phaser3-typescript-project-template.
 
+See the generated static GitHub page: https://gfxblit.github.io/phaser3-typescript-rollup-ghpages-template/ 
+
 ## Requirements
 
 [Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
