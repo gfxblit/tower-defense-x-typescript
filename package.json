@@ -1,7 +1,7 @@
 {
-    "name": "phaser3-typescript-project-template",
-    "version": "1.2.0",
-    "description": "A Phaser 3 Project Template using Rollup and TypeScript",
+    "name": "phaser3-typescript-rollup-ghpages-template",
+    "version": "1.0.0",
+    "description": "A Phaser 3 Project Template using Rollup and TypeScript and GH pages to deploy",
     "main": "src/game.ts",
     "scripts": {
         "dev": "rollup --config rollup.config.dev.mjs",
@@ -11,14 +11,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/photonstorm/phaser3-typescript-project-template.git"
+        "url": "git+https://github.com/gfxblit/phaser3-typescript-rollup-ghpages-template"
     },
-    "author": "Richard Davey <rich@photonstorm.com> (http://www.photonstorm.com)",
+    "author": "Bill Chen (https://github.com/settings/profile.gfxblit)",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/photonstorm/phaser3-typescript-project-template/issues"
-    },
-    "homepage": "https://github.com/photonstorm/phaser3-typescript-project-template#readme",
+    "homepage": "https://github.com/gfxblit/phaser3-typescript-rollup-ghpages-template",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^24.0.1",
         "@rollup/plugin-node-resolve": "^15.0.2",
